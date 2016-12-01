@@ -67,6 +67,7 @@
             this.aLUMNOToolStripMenuItem3.Name = "aLUMNOToolStripMenuItem3";
             this.aLUMNOToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.aLUMNOToolStripMenuItem3.Text = "ALUMNO";
+            this.aLUMNOToolStripMenuItem3.Click += new System.EventHandler(this.aLUMNOToolStripMenuItem3_Click);
             // 
             // mAESTROToolStripMenuItem3
             // 
@@ -86,13 +87,13 @@
             // aLUMNOToolStripMenuItem4
             // 
             this.aLUMNOToolStripMenuItem4.Name = "aLUMNOToolStripMenuItem4";
-            this.aLUMNOToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.aLUMNOToolStripMenuItem4.Size = new System.Drawing.Size(128, 22);
             this.aLUMNOToolStripMenuItem4.Text = "ALUMNO";
             // 
             // mAESTROToolStripMenuItem4
             // 
             this.mAESTROToolStripMenuItem4.Name = "mAESTROToolStripMenuItem4";
-            this.mAESTROToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.mAESTROToolStripMenuItem4.Size = new System.Drawing.Size(128, 22);
             this.mAESTROToolStripMenuItem4.Text = "MAESTRO";
             // 
             // cONSULTARToolStripMenuItem
@@ -107,13 +108,13 @@
             // aLUMNOToolStripMenuItem5
             // 
             this.aLUMNOToolStripMenuItem5.Name = "aLUMNOToolStripMenuItem5";
-            this.aLUMNOToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.aLUMNOToolStripMenuItem5.Size = new System.Drawing.Size(128, 22);
             this.aLUMNOToolStripMenuItem5.Text = "ALUMNO";
             // 
             // mAESTROToolStripMenuItem5
             // 
             this.mAESTROToolStripMenuItem5.Name = "mAESTROToolStripMenuItem5";
-            this.mAESTROToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.mAESTROToolStripMenuItem5.Size = new System.Drawing.Size(128, 22);
             this.mAESTROToolStripMenuItem5.Text = "MAESTRO";
             // 
             // menu
