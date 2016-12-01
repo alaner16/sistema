@@ -23,7 +23,7 @@ namespace SISTEMA
             {
                 MessageBox.Show("bienvenido");
                 this.Hide();
-                menuu m = new menuu();
+                menu m = new menu();
                 m.Show();
             }
         }
