@@ -68,6 +68,12 @@
     <Compile Include="menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modificar_alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modificar_alumno.Designer.cs">
+      <DependentUpon>Modificar_alumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Agregar_alumno.resx">
