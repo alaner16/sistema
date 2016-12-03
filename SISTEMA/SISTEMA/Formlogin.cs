@@ -27,5 +27,10 @@ namespace SISTEMA
                 m.Show();
             }
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

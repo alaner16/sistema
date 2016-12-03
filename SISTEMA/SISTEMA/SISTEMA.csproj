@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAgregarMaestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarMaestro.Designer.cs">
+      <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConsultarmaestro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAgregaralumno.resx">
       <DependentUpon>FormAgregaralumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarMaestro.resx">
+      <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConsultaralumno.resx">
       <DependentUpon>FormConsultaralumno.cs</DependentUpon>
