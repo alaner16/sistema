@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace SISTEMA
 {
-    public partial class Consultar_alumno : Form
+    public partial class FormConsultaralumno : Form
     {
-        public Consultar_alumno()
+        public FormConsultaralumno()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formmenu m = new Formmenu();
+            m.Show();
         }
     }
 }

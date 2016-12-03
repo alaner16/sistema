@@ -44,49 +44,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar_alumno.cs">
+    <Compile Include="FormConsultarmaestro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Agregar_alumno.Designer.cs">
-      <DependentUpon>Agregar_alumno.cs</DependentUpon>
+    <Compile Include="FormConsultarmaestro.Designer.cs">
+      <DependentUpon>FormConsultarmaestro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultar_alumno.cs">
+    <Compile Include="FormAgregaralumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultar_alumno.Designer.cs">
-      <DependentUpon>Consultar_alumno.cs</DependentUpon>
+    <Compile Include="FormAgregaralumno.Designer.cs">
+      <DependentUpon>FormAgregaralumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormConsultaralumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormConsultaralumno.Designer.cs">
+      <DependentUpon>FormConsultaralumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="menu.cs">
+    <Compile Include="Formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu.Designer.cs">
-      <DependentUpon>menu.cs</DependentUpon>
+    <Compile Include="Formlogin.Designer.cs">
+      <DependentUpon>Formlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modificar_alumno.cs">
+    <Compile Include="FormEliminarAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modificar_alumno.Designer.cs">
-      <DependentUpon>Modificar_alumno.cs</DependentUpon>
+    <Compile Include="FormEliminarAlumno.Designer.cs">
+      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarMaestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarMaestro.Designer.cs">
+      <DependentUpon>FormEliminarMaestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmenu.Designer.cs">
+      <DependentUpon>Formmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificaralumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificaralumno.Designer.cs">
+      <DependentUpon>FormModificaralumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarmaestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarmaestro.Designer.cs">
+      <DependentUpon>FormModificarmaestro.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Agregar_alumno.resx">
-      <DependentUpon>Agregar_alumno.cs</DependentUpon>
+    <EmbeddedResource Include="FormAgregaralumno.resx">
+      <DependentUpon>FormAgregaralumno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultar_alumno.resx">
-      <DependentUpon>Consultar_alumno.cs</DependentUpon>
+    <EmbeddedResource Include="FormConsultaralumno.resx">
+      <DependentUpon>FormConsultaralumno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormConsultarmaestro.resx">
+      <DependentUpon>FormConsultarmaestro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu.resx">
-      <DependentUpon>menu.cs</DependentUpon>
+    <EmbeddedResource Include="Formlogin.resx">
+      <DependentUpon>Formlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarAlumno.resx">
+      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarMaestro.resx">
+      <DependentUpon>FormEliminarMaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmenu.resx">
+      <DependentUpon>Formmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificaralumno.resx">
+      <DependentUpon>FormModificaralumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarmaestro.resx">
+      <DependentUpon>FormModificarmaestro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

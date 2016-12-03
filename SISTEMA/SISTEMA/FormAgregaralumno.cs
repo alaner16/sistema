@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SISTEMA
 {
-    public partial class Agregar_alumno : Form
+    public partial class FormAgregaralumno : Form
     {
-        public Agregar_alumno()
+        public FormAgregaralumno()
         {
             InitializeComponent();
         }
@@ -20,6 +20,13 @@ namespace SISTEMA
         private void Agregar_alumno_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Formmenu m = new Formmenu();
+            m.Show();
         }
     }
 }

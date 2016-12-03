@@ -1,6 +1,6 @@
 ﻿namespace SISTEMA
 {
-    partial class Consultar_alumno
+    partial class FormConsultarmaestro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.btn_regresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // btn_regresar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "CONSULTAR";
+            this.btn_regresar.Location = new System.Drawing.Point(13, 226);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(75, 23);
+            this.btn_regresar.TabIndex = 0;
+            this.btn_regresar.Text = "REGRESAR";
+            this.btn_regresar.UseVisualStyleBackColor = true;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
             // 
-            // Consultar_alumno
+            // FormConsultarmaestro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.label1);
-            this.Name = "Consultar_alumno";
-            this.Text = "Consultar Alumno";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btn_regresar);
+            this.Name = "FormConsultarmaestro";
+            this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_regresar;
     }
 }
