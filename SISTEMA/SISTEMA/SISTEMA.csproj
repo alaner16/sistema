@@ -75,18 +75,6 @@
     <Compile Include="Formlogin.Designer.cs">
       <DependentUpon>Formlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormEliminarAlumno.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEliminarAlumno.Designer.cs">
-      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormEliminarMaestro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEliminarMaestro.Designer.cs">
-      <DependentUpon>FormEliminarMaestro.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formmenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,12 +109,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlogin.resx">
       <DependentUpon>Formlogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEliminarAlumno.resx">
-      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEliminarMaestro.resx">
-      <DependentUpon>FormEliminarMaestro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formmenu.resx">
       <DependentUpon>Formmenu.cs</DependentUpon>
