@@ -50,6 +50,7 @@
     <Compile Include="FormAgregarMaestro.Designer.cs">
       <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAgregarmaestro_2.cs" />
     <Compile Include="FormConsultarmaestro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +146,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SISTEMA.FormEliminarAlumno.resources" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

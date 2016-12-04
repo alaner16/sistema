@@ -30,10 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txt_rfc = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.txt_nombre = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rb_f = new System.Windows.Forms.RadioButton();
             this.rb_m = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txt_curp = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.cb_año = new System.Windows.Forms.ComboBox();
@@ -45,8 +47,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txt_apellido_paterno = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txt_rfc = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txt_num_exterior = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -59,22 +59,23 @@
             this.label12 = new System.Windows.Forms.Label();
             this.cb_estado = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cb_horas = new System.Windows.Forms.ComboBox();
+            this.cb_grupo = new System.Windows.Forms.ComboBox();
+            this.txt_pxh = new System.Windows.Forms.TextBox();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
+            this.txt_pass = new System.Windows.Forms.TextBox();
+            this.txt_titulo = new System.Windows.Forms.TextBox();
+            this.txt_id_empleado = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txt_id_empleado = new System.Windows.Forms.TextBox();
-            this.txt_titulo = new System.Windows.Forms.TextBox();
-            this.txt_pass = new System.Windows.Forms.TextBox();
-            this.txt_usuario = new System.Windows.Forms.TextBox();
-            this.txt_pxh = new System.Windows.Forms.TextBox();
-            this.cb_grupo = new System.Windows.Forms.ComboBox();
-            this.cb_horas = new System.Windows.Forms.ComboBox();
             this.cmd_agregar = new System.Windows.Forms.Button();
             this.cmd_limpiar = new System.Windows.Forms.Button();
+            this.btn_regresar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -116,12 +117,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS GENERALES";
             // 
+            // txt_rfc
+            // 
+            this.txt_rfc.Location = new System.Drawing.Point(180, 158);
+            this.txt_rfc.Name = "txt_rfc";
+            this.txt_rfc.Size = new System.Drawing.Size(100, 20);
+            this.txt_rfc.TabIndex = 28;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(48, 158);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "RFC:";
+            // 
             // txt_nombre
             // 
             this.txt_nombre.Location = new System.Drawing.Point(180, 26);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(134, 20);
             this.txt_nombre.TabIndex = 17;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rb_f);
+            this.groupBox2.Controls.Add(this.rb_m);
+            this.groupBox2.Location = new System.Drawing.Point(29, 183);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(89, 38);
+            this.groupBox2.TabIndex = 26;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "SEXO";
             // 
             // rb_f
             // 
@@ -144,17 +172,6 @@
             this.rb_m.TabStop = true;
             this.rb_m.Text = "M";
             this.rb_m.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.rb_f);
-            this.groupBox2.Controls.Add(this.rb_m);
-            this.groupBox2.Location = new System.Drawing.Point(29, 183);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(89, 38);
-            this.groupBox2.TabIndex = 26;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "SEXO";
             // 
             // txt_curp
             // 
@@ -391,22 +408,6 @@
             this.label4.Size = new System.Drawing.Size(119, 13);
             this.label4.TabIndex = 16;
             this.label4.Text = "APELLIDO MATERNO:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(48, 158);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 13);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "RFC:";
-            // 
-            // txt_rfc
-            // 
-            this.txt_rfc.Location = new System.Drawing.Point(180, 158);
-            this.txt_rfc.Name = "txt_rfc";
-            this.txt_rfc.Size = new System.Drawing.Size(100, 20);
-            this.txt_rfc.TabIndex = 28;
             // 
             // groupBox3
             // 
@@ -2254,6 +2255,84 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "INFORMACION ACADEMICA";
             // 
+            // cb_horas
+            // 
+            this.cb_horas.FormattingEnabled = true;
+            this.cb_horas.Location = new System.Drawing.Point(425, 31);
+            this.cb_horas.Name = "cb_horas";
+            this.cb_horas.Size = new System.Drawing.Size(58, 21);
+            this.cb_horas.TabIndex = 25;
+            // 
+            // cb_grupo
+            // 
+            this.cb_grupo.FormattingEnabled = true;
+            this.cb_grupo.Location = new System.Drawing.Point(135, 84);
+            this.cb_grupo.Name = "cb_grupo";
+            this.cb_grupo.Size = new System.Drawing.Size(81, 21);
+            this.cb_grupo.TabIndex = 24;
+            // 
+            // txt_pxh
+            // 
+            this.txt_pxh.Location = new System.Drawing.Point(394, 57);
+            this.txt_pxh.Name = "txt_pxh";
+            this.txt_pxh.Size = new System.Drawing.Size(100, 20);
+            this.txt_pxh.TabIndex = 23;
+            // 
+            // txt_usuario
+            // 
+            this.txt_usuario.Location = new System.Drawing.Point(371, 87);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(100, 20);
+            this.txt_usuario.TabIndex = 22;
+            // 
+            // txt_pass
+            // 
+            this.txt_pass.Location = new System.Drawing.Point(135, 111);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.Size = new System.Drawing.Size(100, 20);
+            this.txt_pass.TabIndex = 21;
+            // 
+            // txt_titulo
+            // 
+            this.txt_titulo.Location = new System.Drawing.Point(135, 57);
+            this.txt_titulo.Name = "txt_titulo";
+            this.txt_titulo.Size = new System.Drawing.Size(100, 20);
+            this.txt_titulo.TabIndex = 20;
+            // 
+            // txt_id_empleado
+            // 
+            this.txt_id_empleado.Location = new System.Drawing.Point(135, 31);
+            this.txt_id_empleado.Name = "txt_id_empleado";
+            this.txt_id_empleado.Size = new System.Drawing.Size(100, 20);
+            this.txt_id_empleado.TabIndex = 19;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(30, 114);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(73, 13);
+            this.label19.TabIndex = 18;
+            this.label19.Text = "PASSWORD:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(306, 90);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(59, 13);
+            this.label18.TabIndex = 17;
+            this.label18.Text = "USUARIO:";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(30, 87);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(63, 13);
+            this.label17.TabIndex = 16;
+            this.label17.Text = "ID GRUPO:";
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -2290,87 +2369,9 @@
             this.label16.TabIndex = 8;
             this.label16.Text = "ID EMPLEADO:";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(30, 87);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(63, 13);
-            this.label17.TabIndex = 16;
-            this.label17.Text = "ID GRUPO:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(306, 90);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(59, 13);
-            this.label18.TabIndex = 17;
-            this.label18.Text = "USUARIO:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(30, 114);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(73, 13);
-            this.label19.TabIndex = 18;
-            this.label19.Text = "PASSWORD:";
-            // 
-            // txt_id_empleado
-            // 
-            this.txt_id_empleado.Location = new System.Drawing.Point(135, 31);
-            this.txt_id_empleado.Name = "txt_id_empleado";
-            this.txt_id_empleado.Size = new System.Drawing.Size(100, 20);
-            this.txt_id_empleado.TabIndex = 19;
-            // 
-            // txt_titulo
-            // 
-            this.txt_titulo.Location = new System.Drawing.Point(135, 57);
-            this.txt_titulo.Name = "txt_titulo";
-            this.txt_titulo.Size = new System.Drawing.Size(100, 20);
-            this.txt_titulo.TabIndex = 20;
-            // 
-            // txt_pass
-            // 
-            this.txt_pass.Location = new System.Drawing.Point(135, 111);
-            this.txt_pass.Name = "txt_pass";
-            this.txt_pass.Size = new System.Drawing.Size(100, 20);
-            this.txt_pass.TabIndex = 21;
-            // 
-            // txt_usuario
-            // 
-            this.txt_usuario.Location = new System.Drawing.Point(371, 87);
-            this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(100, 20);
-            this.txt_usuario.TabIndex = 22;
-            // 
-            // txt_pxh
-            // 
-            this.txt_pxh.Location = new System.Drawing.Point(394, 57);
-            this.txt_pxh.Name = "txt_pxh";
-            this.txt_pxh.Size = new System.Drawing.Size(100, 20);
-            this.txt_pxh.TabIndex = 23;
-            // 
-            // cb_grupo
-            // 
-            this.cb_grupo.FormattingEnabled = true;
-            this.cb_grupo.Location = new System.Drawing.Point(135, 84);
-            this.cb_grupo.Name = "cb_grupo";
-            this.cb_grupo.Size = new System.Drawing.Size(81, 21);
-            this.cb_grupo.TabIndex = 24;
-            // 
-            // cb_horas
-            // 
-            this.cb_horas.FormattingEnabled = true;
-            this.cb_horas.Location = new System.Drawing.Point(425, 31);
-            this.cb_horas.Name = "cb_horas";
-            this.cb_horas.Size = new System.Drawing.Size(58, 21);
-            this.cb_horas.TabIndex = 25;
-            // 
             // cmd_agregar
             // 
-            this.cmd_agregar.Location = new System.Drawing.Point(87, 461);
+            this.cmd_agregar.Location = new System.Drawing.Point(504, 461);
             this.cmd_agregar.Name = "cmd_agregar";
             this.cmd_agregar.Size = new System.Drawing.Size(75, 23);
             this.cmd_agregar.TabIndex = 11;
@@ -2379,18 +2380,29 @@
             // 
             // cmd_limpiar
             // 
-            this.cmd_limpiar.Location = new System.Drawing.Point(213, 460);
+            this.cmd_limpiar.Location = new System.Drawing.Point(589, 461);
             this.cmd_limpiar.Name = "cmd_limpiar";
             this.cmd_limpiar.Size = new System.Drawing.Size(75, 23);
             this.cmd_limpiar.TabIndex = 12;
             this.cmd_limpiar.Text = "LIMPIAR";
             this.cmd_limpiar.UseVisualStyleBackColor = true;
             // 
+            // btn_regresar
+            // 
+            this.btn_regresar.Location = new System.Drawing.Point(13, 460);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(75, 23);
+            this.btn_regresar.TabIndex = 13;
+            this.btn_regresar.Text = "REGRESAR";
+            this.btn_regresar.UseVisualStyleBackColor = true;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
+            // 
             // FormAgregarMaestro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 495);
+            this.Controls.Add(this.btn_regresar);
             this.Controls.Add(this.cmd_limpiar);
             this.Controls.Add(this.cmd_agregar);
             this.Controls.Add(this.groupBox4);
@@ -2462,5 +2474,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button cmd_agregar;
         private System.Windows.Forms.Button cmd_limpiar;
+        private System.Windows.Forms.Button btn_regresar;
     }
 }

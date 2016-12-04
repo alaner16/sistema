@@ -1,6 +1,6 @@
 ﻿namespace SISTEMA
 {
-    partial class FormModificaralumno
+    partial class FormModificarmaestro
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_regresar_alumno = new System.Windows.Forms.Button();
+            this.btn_regresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btn_regresar_alumno
+            // btn_regresar
             // 
-            this.btn_regresar_alumno.Location = new System.Drawing.Point(12, 226);
-            this.btn_regresar_alumno.Name = "btn_regresar_alumno";
-            this.btn_regresar_alumno.Size = new System.Drawing.Size(75, 23);
-            this.btn_regresar_alumno.TabIndex = 13;
-            this.btn_regresar_alumno.Text = "REGRESAR";
-            this.btn_regresar_alumno.UseVisualStyleBackColor = true;
-            this.btn_regresar_alumno.Click += new System.EventHandler(this.btn_regresar_alumno_Click);
+            this.btn_regresar.Location = new System.Drawing.Point(12, 226);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(75, 23);
+            this.btn_regresar.TabIndex = 1;
+            this.btn_regresar.Text = "REGRESAR";
+            this.btn_regresar.UseVisualStyleBackColor = true;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
             // 
-            // FormModificaralumno
+            // FormModificarmaestro2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.btn_regresar_alumno);
-            this.Name = "FormModificaralumno";
-            this.Text = "Formmodificaralumno2";
+            this.Controls.Add(this.btn_regresar);
+            this.Name = "FormModificarmaestro2";
+            this.Text = "FormModificarmaestro2";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btn_regresar_alumno;
+        private System.Windows.Forms.Button btn_regresar;
     }
 }

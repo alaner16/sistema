@@ -10,24 +10,18 @@ using System.Windows.Forms;
 
 namespace SISTEMA
 {
-    public partial class FormAgregarMaestro : Form
+    public partial class FormModificaralumno : Form
     {
-        public FormAgregarMaestro()
+        public FormModificaralumno()
         {
             InitializeComponent();
         }
 
-        private void FormAgregarMaestro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_regresar_Click(object sender, EventArgs e)
+        private void btn_regresar_alumno_Click(object sender, EventArgs e)
         {
             this.Hide();
             Formmenu m = new Formmenu();
             m.Show();
-
         }
     }
 }
