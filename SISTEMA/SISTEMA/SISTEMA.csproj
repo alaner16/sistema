@@ -50,7 +50,6 @@
     <Compile Include="FormAgregarMaestro.Designer.cs">
       <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAgregarmaestro_2.cs" />
     <Compile Include="FormConsultarmaestro.cs">
       <SubType>Form</SubType>
     </Compile>
