@@ -40,16 +40,16 @@ namespace SISTEMA
 
         private void aLUMNOToolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //FormEliminarAlumno m = new FormEliminarAlumno();
-            //m.Show();
+            this.Hide();
+            FormEliminarAlumno m = new FormEliminarAlumno();
+            m.Show();
         }
 
         private void mAESTROToolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-            //FormEliminarMaestro m = new FormEliminarMaestro();
-            //m.Show();
+            this.Hide();
+            FormEliminarmaestro m = new FormEliminarmaestro();
+            m.Show();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -70,6 +70,35 @@ namespace SISTEMA
         {
             this.Hide();
             FormModificarmaestro m = new FormModificarmaestro();
+            m.Show();
+        }
+
+        private void mATERIAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormAgregarmateria m = new FormAgregarmateria();
+            m.Show();
+
+        }
+
+        private void mATERIAToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormEliminarmateria m = new FormEliminarmateria();
+            m.Show();
+        }
+
+        private void mATERIAToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormConsultarmateria m = new FormConsultarmateria();
+            m.Show();
+        }
+
+        private void mATERIAToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormModificarmateria m = new FormModificarmateria();
             m.Show();
         }
     }

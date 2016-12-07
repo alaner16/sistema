@@ -41,6 +41,10 @@
             this.cONSULTARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aLUMNOToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.mAESTROToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mATERIAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mATERIAToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mATERIAToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mATERIAToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +65,8 @@
             // 
             this.rEGISTRARToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aLUMNOToolStripMenuItem3,
-            this.mAESTROToolStripMenuItem3});
+            this.mAESTROToolStripMenuItem3,
+            this.mATERIAToolStripMenuItem});
             this.rEGISTRARToolStripMenuItem.Name = "rEGISTRARToolStripMenuItem";
             this.rEGISTRARToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.rEGISTRARToolStripMenuItem.Text = "REGISTRAR";
@@ -84,7 +89,8 @@
             // 
             this.eLIMINARToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aLUMNOToolStripMenuItem4,
-            this.mAESTROToolStripMenuItem4});
+            this.mAESTROToolStripMenuItem4,
+            this.mATERIAToolStripMenuItem1});
             this.eLIMINARToolStripMenuItem1.Name = "eLIMINARToolStripMenuItem1";
             this.eLIMINARToolStripMenuItem1.Size = new System.Drawing.Size(72, 20);
             this.eLIMINARToolStripMenuItem1.Text = "ELIMINAR";
@@ -107,7 +113,8 @@
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ConsultarAlumno,
-            this.ConsultarMaestro});
+            this.ConsultarMaestro,
+            this.mATERIAToolStripMenuItem2});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(85, 20);
             this.toolStripMenuItem1.Text = "CONSULTAR";
@@ -130,7 +137,8 @@
             // 
             this.cONSULTARToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aLUMNOToolStripMenuItem5,
-            this.mAESTROToolStripMenuItem5});
+            this.mAESTROToolStripMenuItem5,
+            this.mATERIAToolStripMenuItem3});
             this.cONSULTARToolStripMenuItem.Name = "cONSULTARToolStripMenuItem";
             this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.cONSULTARToolStripMenuItem.Text = "MODIFICAR";
@@ -138,7 +146,7 @@
             // aLUMNOToolStripMenuItem5
             // 
             this.aLUMNOToolStripMenuItem5.Name = "aLUMNOToolStripMenuItem5";
-            this.aLUMNOToolStripMenuItem5.Size = new System.Drawing.Size(128, 22);
+            this.aLUMNOToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
             this.aLUMNOToolStripMenuItem5.Text = "ALUMNO";
             this.aLUMNOToolStripMenuItem5.Click += new System.EventHandler(this.aLUMNOToolStripMenuItem5_Click);
             // 
@@ -148,6 +156,34 @@
             this.mAESTROToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
             this.mAESTROToolStripMenuItem5.Text = "MAESTRO";
             this.mAESTROToolStripMenuItem5.Click += new System.EventHandler(this.mAESTROToolStripMenuItem5_Click);
+            // 
+            // mATERIAToolStripMenuItem
+            // 
+            this.mATERIAToolStripMenuItem.Name = "mATERIAToolStripMenuItem";
+            this.mATERIAToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mATERIAToolStripMenuItem.Text = "MATERIA";
+            this.mATERIAToolStripMenuItem.Click += new System.EventHandler(this.mATERIAToolStripMenuItem_Click);
+            // 
+            // mATERIAToolStripMenuItem1
+            // 
+            this.mATERIAToolStripMenuItem1.Name = "mATERIAToolStripMenuItem1";
+            this.mATERIAToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.mATERIAToolStripMenuItem1.Text = "MATERIA";
+            this.mATERIAToolStripMenuItem1.Click += new System.EventHandler(this.mATERIAToolStripMenuItem1_Click);
+            // 
+            // mATERIAToolStripMenuItem2
+            // 
+            this.mATERIAToolStripMenuItem2.Name = "mATERIAToolStripMenuItem2";
+            this.mATERIAToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.mATERIAToolStripMenuItem2.Text = "MATERIA";
+            this.mATERIAToolStripMenuItem2.Click += new System.EventHandler(this.mATERIAToolStripMenuItem2_Click);
+            // 
+            // mATERIAToolStripMenuItem3
+            // 
+            this.mATERIAToolStripMenuItem3.Name = "mATERIAToolStripMenuItem3";
+            this.mATERIAToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.mATERIAToolStripMenuItem3.Text = "MATERIA";
+            this.mATERIAToolStripMenuItem3.Click += new System.EventHandler(this.mATERIAToolStripMenuItem3_Click);
             // 
             // Formmenu
             // 
@@ -179,5 +215,9 @@
         private System.Windows.Forms.ToolStripMenuItem cONSULTARToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aLUMNOToolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem mAESTROToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem mATERIAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mATERIAToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem mATERIAToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem mATERIAToolStripMenuItem3;
     }
 }

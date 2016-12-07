@@ -50,6 +50,12 @@
     <Compile Include="FormAgregarMaestro.Designer.cs">
       <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAgregarmateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarmateria.Designer.cs">
+      <DependentUpon>FormAgregarmateria.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConsultarmaestro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,30 @@
     </Compile>
     <Compile Include="FormConsultaralumno.Designer.cs">
       <DependentUpon>FormConsultaralumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultarmateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultarmateria.Designer.cs">
+      <DependentUpon>FormConsultarmateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarAlumno.Designer.cs">
+      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarmaestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarmaestro.Designer.cs">
+      <DependentUpon>FormEliminarmaestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarmateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarmateria.Designer.cs">
+      <DependentUpon>FormEliminarmateria.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlogin.cs">
       <SubType>Form</SubType>
@@ -92,6 +122,12 @@
     <Compile Include="FormModificarmaestro.Designer.cs">
       <DependentUpon>FormModificarmaestro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormModificarmateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarmateria.Designer.cs">
+      <DependentUpon>FormModificarmateria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAgregaralumno.resx">
@@ -100,11 +136,26 @@
     <EmbeddedResource Include="FormAgregarMaestro.resx">
       <DependentUpon>FormAgregarMaestro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarmateria.resx">
+      <DependentUpon>FormAgregarmateria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormConsultaralumno.resx">
       <DependentUpon>FormConsultaralumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConsultarmaestro.resx">
       <DependentUpon>FormConsultarmaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultarmateria.resx">
+      <DependentUpon>FormConsultarmateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarAlumno.resx">
+      <DependentUpon>FormEliminarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarmaestro.resx">
+      <DependentUpon>FormEliminarmaestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarmateria.resx">
+      <DependentUpon>FormEliminarmateria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlogin.resx">
       <DependentUpon>Formlogin.cs</DependentUpon>
@@ -118,6 +169,9 @@
     <EmbeddedResource Include="FormModificarmaestro.resx">
       <DependentUpon>FormModificarmaestro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarmateria.resx">
+      <DependentUpon>FormModificarmateria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -127,7 +181,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="SISTEMA.FormEliminarAlumno.resources" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
